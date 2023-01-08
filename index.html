@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FANCY LOGIN/REGISTER FORM</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="box">
+     <div class="form">
+       <div  class="form-btn">
+         <h4 onclick="login()">Login</h4>
+         <h4 onclick="register()">Register</h4>
+         <hr id="Indicator">
+       </div>
+      <form id="LoginForm">
+        <div class="inputbox">
+        <input type="text" required="required" placeholder="Username">
+        
+       <input type="password" required="required" placeholder="Password">
+       
+      
+       <input type="submit" value="Login">
+      
+       <div class="links">
+         <a href="#" class="link">Forgot Password</a>
+       </div>
+     </div>
+   </form>
+   <form id="RegForm">
+      <div class="inputbox">
+        <input type="text" required="required" placeholder="Username">
+        
+       <input type="password" required="required" placeholder="Password">
+      
+       <input type="email" required="required" placeholder="Email">
+       
+       <input type="submit" value="Register">
+    </div>  
+   </form>
+    <hr class="line">
+  		<p class="copyright">COPYRIGHT 2022 &copy;</p>
+       <p>Endy with <i class="fa fa-heart"></i></p>
+     </div>
+
+    
+   <!--- <div class="form-container">
+      <div class="form-btn">
+        <span>Login</span>
+         <span>Register</span>
+      </div>
+      <form>
+        <input type="text" placeholder="Username">
+       <input type="password" placeholder="Password">
+      <button type="submit" class="btn">Login</button>
+      <a href="#">Forgot Password</a>
+    </form>
+    <form>
+       <input type="text" placeholder="Username">
+       <input type="password" placeholder="Password" required>
+        <input type="email" placeholder="Email">
+      <button type="submit" class="btn">Register</button>
+     </form>
+   </div> ---->
+  </div>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+
+</body>
+
+</html>
