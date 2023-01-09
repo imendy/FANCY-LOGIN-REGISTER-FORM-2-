@@ -173,7 +173,12 @@ p {
 .fa-heart:focus {
 	color: red;
 }
-/*.inputbox span {
+
+/* .....I TRIED ALL THIS CODES BELOW BUT I WASN'T GETTING A DESIRED RESULT, SO I STARTED AFRESH...
+THE CODES ABOVE DID THE MAGIC!!
+
+
+.inputbox span {
 
   padding: 20px 0 10px;
   pointer-events: none;
